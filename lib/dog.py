@@ -38,6 +38,3 @@ class Dog:
     breed = property(get_breed, set_breed)
    
 
-
-print(Dog(name=""))
-
