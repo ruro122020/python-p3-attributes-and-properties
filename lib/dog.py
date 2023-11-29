@@ -12,9 +12,9 @@ APPROVED_BREEDS = [
 ]
 
 class Dog:
-    def __init__(self, name="", breed=""):
-        self.set_name(name)
-        self.set_breed(breed)
+    def __init__(self, name="Mika", breed="Pug"):
+        self.name = name
+        self.breed = breed
 
     def get_name(self):
         return self._name
@@ -39,5 +39,5 @@ class Dog:
    
 
 
-print(Dog())
+print(Dog(name=""))
 
